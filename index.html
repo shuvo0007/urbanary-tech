@@ -10,8 +10,9 @@
 </head>
 
 <body>
+  <!----------------------------------- nav bar -------------------------------------->
   <div class="container">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <img src="image/logo/nav-logo.jpg" alt="">
@@ -21,14 +22,25 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="accessories.html">Accessories</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Accessories
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="mouse.html">Mouse</a></li>
+                <li><a class="dropdown-item" href="headphone.html">Headphone</a></li>
+                <!-- <li><hr class="dropdown-divider"></li> -->
+                <!-- <li><a class="dropdown-item" href="#">Something else here</a></li> -->
+              </ul>
             </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="accessories.html">Accessories</a>
+            </li> -->
             <li class="nav-item">
               <a class="nav-link" href="component.html">Component</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About US</a>
+              <a class="nav-link" href="about-us.html">About US</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Contact US</a>
@@ -38,26 +50,28 @@
       </div>
     </nav>
   </div>
-
+<!--------------------------------- carousel item ----------------------------------->
   <div class="container">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div id="carouselExampleControls" class="carousel slide carousel-bg" data-bs-ride="carousel">
       <div class="carousel-inner">
-
         <div class="carousel-item active">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-md-7">
-
+              <h1>Mouse Skates, Switch & Cable</h1>
+              <p>We have various types of mouse skates based on their models. We also have some macro Switch, silent Switch and mouse cable available</p>
+              <a class="check-now-button" href="mouse.html">Check Now</a>
             </div>
             <div class="col-md-5">
               <img src="image/banner-images/mouse.png" class="d-block w-100" alt="...">
             </div>
           </div>
         </div>
-
         <div class="carousel-item">
-          <div class="row">
+          <div class="row align-items-center">
             <div class="col-md-7">
-
+              <h1>HeadPhone Earcups</h1>
+              <p>We have 2 types of Earcups available</p>
+              <a class="check-now-button" href="headphone.html">Check Now</a>
             </div>
             <div class="col-md-5">
               <img src="image/banner-images/headphone.png" class="d-block w-100" alt="..."></div>
@@ -84,10 +98,26 @@
       </button>
     </div>
   </div>
+<!----------------------------------- item button ------------------------------------>
+  <div class="container catagories">
+    <div class="row">
+      <div class="col-md-5 d-flex justify-content-between align-items-center cat1">
+          <h1>Mouse</h1>
+        <img class="img-size" src="image/banner-images/mouse.png" alt="">
+      </div>
+      <div class="col-md-1">
 
-  
+      </div>
+      <div class="col-md-5 d-flex justify-content-between align-items-center cat2 ">
+        <h1>HeadPhone</h1>
+        <img class="img-size" src="image/banner-images/headphone.png" alt="">
+      </div>
+    </div>
+  </div>
 
-
+  <div class="footer">
+    <p>asdasdasdasdasd</p>
+  </div>
 
 
 

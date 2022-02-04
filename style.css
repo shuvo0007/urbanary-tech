@@ -1,0 +1,45 @@
+.container{
+  margin-bottom: 100px;
+}
+
+.carousel-bg{
+  background-color: #fceae8;
+  border-radius: 5px;
+}
+
+.carousel-item{
+  padding: 20px 100px;
+  
+}
+.check-now-button{
+  text-decoration: none;
+  background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+a:hover{
+  color: purple;
+}
+
+.cat1{
+  color: white;
+  margin-left: 50px;
+  background-image: linear-gradient(to left, #ff5858 0%, #ff1313 100%);
+  border-radius: 8px;
+}
+
+.cat2{
+  color: white;
+  background-image:
+  linear-gradient(to left, #7758ff 0%, #2b13ff 100%);
+  border-radius: 8px;
+}
+
+.img-size{
+  width: 25%;
+  padding: 20px;
+}
