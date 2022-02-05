@@ -43,3 +43,14 @@ a:hover{
   width: 25%;
   padding: 20px;
 }
+
+.cat1m{
+  color: white;
+  background-image: linear-gradient(to left, #ff5858 0%, #ff1313 100%);
+  border-radius: 8px;
+}
+
+.skates-pic{
+  height: 100%;
+    
+  }
