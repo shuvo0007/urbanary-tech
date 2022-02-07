@@ -9,8 +9,12 @@
 
 .carousel-item{
   padding: 20px 100px;
-  
 }
+
+.carosol-img{
+  margin: 10%;
+}
+
 .check-now-button{
   text-decoration: none;
   background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
@@ -19,19 +23,24 @@
   border-radius: 8px;
   padding: 9px 25px;
   cursor: pointer;
-  margin-left: 100px;
 }
+.check-now-button-margin{
+  margin-left: 10%;
+}
+
 a:hover{
   color: purple;
 }
 
 .cat1{
+  margin-bottom: 1%;
   color: white;
   background-image: linear-gradient(to left, #ff5858 0%, #ff1313 100%);
   border-radius: 8px;
 }
 
 .cat2{
+  
   color: white;
   background-image:
   linear-gradient(to left, #7758ff 0%, #2b13ff 100%);
