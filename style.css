@@ -16,12 +16,9 @@
 }
 
 .check-now-button{
-  text-decoration: none;
   background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
-  color: white;
   border: none;
   border-radius: 8px;
-  padding: 9px 25px;
   cursor: pointer;
 }
 .check-now-button-margin{
