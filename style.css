@@ -1,3 +1,7 @@
+body{
+  background-image: url(image/bg.png);
+}
+
 .container{
   margin-bottom: 100px;
 }
@@ -50,19 +54,35 @@ a:hover{
 }
 
 .cat1m{
-  color: white;
-  background-image: linear-gradient(to left, #ff5858 0%, #ff1313 100%);
+  color: black;
+  background-image: url(image/bg.png);
   border-radius: 8px;
+  box-shadow: 5px 5px 10px lightgray;
 }
 
 .cat2h{
-  color: white;
-  background-image:
-  linear-gradient(to left, #7758ff 0%, #2b13ff 100%);
+  color: black;
+  background-image: url(image/bg.png);
   border-radius: 8px;
+  box-shadow: 5px 5px 10px lightgray;
 }
-
 .skates-pic{
   height: 100%;
     
   }
+
+  .card{
+    border: none;
+    box-shadow: 5px 5px 10px lightgray;
+  }
+
+.footer{
+  padding: 2%;
+  background-color: #fceae8;
+  border-radius: 5px;
+  
+}
+
+.margin-b-0{
+  margin-bottom: 0;
+}
